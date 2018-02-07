@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  ;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: #FF0000;
+}
+
+/* banner */
+
+#banner {
+  min-height: 90vh;
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(image/studio3.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-text {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  letter-spacing: 5px;
+  padding-left: 13px;
+}
+
+.banner-underline {
+  width: 250px;
+  border: 1px solid #FFFFFF;
+  margin: 10px auto 20px auto;
+}
+
+.banner-content {
+  color: #FFFFFF;
+  display: flex;
+  padding-left: 13px;
+}
+
+a.text-white {
+  padding-right: 50px;
+}
+
+.divider {
+  /* background-color: #FF0000; */
+  
+}
+/* service */
+#service {
+  /* border: 2px solid white; */
+  /* border-radius: 5px; */
+  padding-bottom:15px;
+}
+
+.title-text {
+  padding-top: 45px;
+  color: #FFFFFF;
+  /* background-color: #FF0000; */
+display: flex;
+justify-content: center;
+font-size: 25px;
+}
+
+.title {
+  /* background-color: #FF0000 */
+}
+#service1 {
+  display: flex;
+  justify-content: center;
+  padding: 5px 5px 5px 5px;
+  /* background-color: #FF0000; */
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#service2 {
+  display: flex;
+  justify-content: center;
+  padding: 45px 5px 5px 5px;
+  /* background-color: #FF0000; */
+}
+
+/* gallery */
+#gallery {
+  /* border: 2px solid white; */
+  /* border-radius: 15px; */
+}
+
+#gallery1 {
+  padding-top: 3%;
+  display: flex; 
+  /* background-color: #FF0000; */
+ 
+}
+
+.leftLeft {
+  padding-left: 18%;
+}
+
+.middle {
+  padding: 3%;
+}
+.rightRight {
+  padding-right: 18%;
+}
+
+#gallery2 {
+  padding-top: 3%;
+  display: flex; 
+  /* background-color: #FF0000; */
+ 
+}
+
+#gallery3 {
+  padding-top: 3%;
+  display: flex; 
+  background-color: #FF0000;
+ 
+}
+ /* events */
+ #event1 {
+   padding-top: 3%;
+
+   display: flex;
+ }
+ 
+ /* community */
+ 
+
+ 
